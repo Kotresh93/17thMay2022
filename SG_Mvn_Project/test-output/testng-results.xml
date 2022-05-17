@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10550" started-at="2022-05-17T13:41:52 IST" finished-at="2022-05-17T13:42:02 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10550" started-at="2022-05-17T13:41:52 IST" finished-at="2022-05-17T13:42:02 IST">
+      <class name="com.sg.driver.DriverScript">
+        <test-method status="PASS" signature="loadClassFiles()[pri:0, instance:com.sg.driver.DriverScript@36b4cef0]" name="loadClassFiles" is-config="true" duration-ms="222" started-at="2022-05-17T13:41:51 IST" finished-at="2022-05-17T13:41:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadClassFiles -->
+        <test-method status="PASS" signature="runTestScripts(java.util.Map)[pri:0, instance:com.sg.driver.DriverScript@36b4cef0]" name="runTestScripts" duration-ms="9590" started-at="2022-05-17T13:41:52 IST" data-provider="testData" finished-at="2022-05-17T13:42:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExecuteTest=Yes, Status=, ClassName=com.sg.testscripts.UserModuleScripts, TestCaseID=SRS_101, ScriptName=TS_loginLogout}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTestScripts -->
+      </class> <!-- com.sg.driver.DriverScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
