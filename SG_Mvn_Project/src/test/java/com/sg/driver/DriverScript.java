@@ -66,11 +66,8 @@ public class DriverScript {
 		
 		if(blnRes) {
 			datatable.setCellData(runnerFilePath, "Controller", "Status", data.get("TestCaseID"), "PASS");
-			System.out.println("Passs");
-		
 		}else {
 		datatable.setCellData(runnerFilePath, "Controller", "Status",data.get("TestCaseID") , "FAIL");
-			System.out.println("Fail");
 		}
 		} catch (Exception e) {
 System.out.println("Exception in 'runTestScripts()' method. " + e);
