@@ -35,7 +35,6 @@ public class AppIndependentMethods extends DriverScript {
 			dt = new Date();
 			sdf = new SimpleDateFormat(format);
 			return sdf.format(dt);
-
 		} catch (Exception e) {
 			reports.writeReport(null, "Exception", "Exception in 'getDateAndTime()' method. " + e);
 			return null;
@@ -92,7 +91,6 @@ public class AppIndependentMethods extends DriverScript {
 						"The browser '" + browserName + "' did not launched successfully ");
 				return null;
 			}
-
 		} catch (Exception e) {
 			reports.writeReport(oDriver, "Exception", "Exception while executing 'clickObject()' method. " + e);
 			return null;
@@ -124,7 +122,6 @@ public class AppIndependentMethods extends DriverScript {
 						"The element '\"+String.valueOf(objBy)+\"' was not found in the DOM");
 				return false;
 			}
-
 		} catch (Exception e) {
 			reports.writeReport(odDriver, "Exception", "Exception in 'clickObject()' method. " + e);
 			return false;
@@ -159,7 +156,6 @@ public class AppIndependentMethods extends DriverScript {
 						"The element '" + String.valueOf(objBy) + "' was not found in the DOM");
 				return false;
 			}
-
 		} catch (Exception e) {
 			reports.writeReport(oDriver, "Exception", "Exception in 'setObject()' method. \"+ e");
 			return false;

@@ -24,10 +24,8 @@ public class AppDependentMethods extends DriverScript implements ObjectLocators 
 			String strTitle = oDriver.getTitle();
 			if (appInd.compareValues(oDriver, strTitle, "actiTIME - Login"))
 				return true;
-
 			else
 				return false;
-
 		} catch (Exception e) {
 			reports.writeReport(oDriver, "Exception", "Exception while executing 'navigateURL()' method. " + e);
 			return false;
@@ -74,10 +72,6 @@ public class AppDependentMethods extends DriverScript implements ObjectLocators 
 			return false;
 		}
 	}
-	
-	
-	
-	
 	
 	/**************************************
 	 * Method Name	: logoutFromApp
